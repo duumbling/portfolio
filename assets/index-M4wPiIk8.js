@@ -56,7 +56,7 @@
         </p>
       </div>
       <div class=${l.MainPageTrySectionCourseContainer}>
-      <a href="https://delicate-cat-53da48.netlify.app/" target="_blank"> 
+      <a href="https://trycourse.vercel.app/" target="_blank"> 
       <button class=${l.MainPageTrySectionCourseContainer_button}>
   
        <p>Попробуй</p>
