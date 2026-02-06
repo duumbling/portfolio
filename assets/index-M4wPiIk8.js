@@ -3,7 +3,6 @@
       <a class=${y.tgIconBody} href="https://t.me/Howling_Shame" target="_blank">
          <img src=${I} alt="telegram">
       </a>
-      // <a class=${y.email} href="mailto:kakoy-toemail@ya.ru" target="_blank"></a>
     </footer>
   `,D="_courseHeader_1n5ii_19",A="_imgbook_1n5ii_29",N="_headerNavFixed_1n5ii_90",W="_navBook_1n5ii_125",q="_scroll_to_top_visible_1n5ii_388",E="_scroll_to_top_invisible_1n5ii_411",c={courseHeader:D,imgbook:A,headerNavFixed:N,navBook:W,scroll_to_top_visible:q,scroll_to_top_invisible:E},H="/assets/Book1400-C6-ll8G6.svg",$={course:"Course",main:"Main"},v=(e,o)=>{let t=200,i,n;e==$.course?(n=`
    <header class=${c.courseHeader}>
