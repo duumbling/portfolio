@@ -1,0 +1,457 @@
+.MainPageTrySectionBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 950px;
+  background: #fff;
+}
+
+.MainPageTrySectionBody>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 45px;
+}
+
+.MainPageTrySectionTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 638px;
+}
+
+h3 {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.MainPageTrySectionTextContainer_text {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.MainPageTrySectionCourseContainer {
+  min-width: 417px;
+  height: 380px;
+  padding: 40px;
+  border-radius: 20px;
+  // background: linear-gradient(231deg,
+  //     rgba(150, 195, 77, 0.4) 0%,
+  //     rgba(218, 40, 40, 0.4) 99.06%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.MainPageTrySectionCourseContainer:before {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  background: url("../img/img0.jpeg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+
+.MainPageTrySectionCourseContainer_button {
+  width: 219px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.83);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // color: #000;
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  background-color: #ff3700;
+}
+
+.MainPageTrySectionCourseContainer_button p {
+  z-index: 1;
+}
+
+.MainPageTrySectionCourseContainer_button::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: -100%;
+  bottom: -60%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #ff3700;
+  transition: all 0.4s ease;
+  // z-index: 1;
+}
+
+.MainPageTrySectionCourseContainer_button:hover {
+  // background: rgba(226, 251, 227, 0.83);
+  color: #fff;
+  box-shadow: 1px 1px 10px 5px #ff37009c;
+}
+
+.MainPageTrySectionCourseContainer_button:hover.MainPageTrySectionCourseContainer_button::after {
+  // left: 0;
+  // bottom: 0;
+  // background-color: rgba(145, 229, 246, 0.83);
+  // background-color: #fb5f34;
+}
+
+@media screen and (max-width: 1200px) {
+  .MainPageTrySectionBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    padding: 85px 0 35px;
+    background: #fff;
+  }
+
+  .MainPageTrySectionBody>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .MainPageTrySectionTextContainer {
+    gap: 20px;
+    width: 480px;
+    // text-align: center;
+    margin-left: 30px;
+  }
+
+  h3 {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .MainPageTrySectionTextContainer_text {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .MainPageTrySectionCourseContainer {
+    width: 417px;
+    height: 380px;
+    padding: 40px;
+    border-radius: 20px;
+    background: linear-gradient(231deg,
+        rgba(150, 195, 77, 0.4) 0%,
+        rgba(218, 40, 40, 0.4) 99.06%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .MainPageTrySectionCourseContainer_button {
+    width: 219px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .MainPageTrySectionCourseContainer_button p {
+    z-index: 1;
+  }
+
+  .MainPageTrySectionCourseContainer_button::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: -100%;
+    bottom: -60%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #fb5f34;
+    transition: all 0.4s ease;
+    // z-index: 1;
+  }
+
+  .MainPageTrySectionCourseContainer_button:hover {
+    // background: rgba(226, 251, 227, 0.83);
+    color: #fff;
+  }
+
+  .MainPageTrySectionCourseContainer_button:hover.MainPageTrySectionCourseContainer_button::after {
+    left: 0;
+    bottom: 0;
+    // background-color: rgba(145, 229, 246, 0.83);
+    background-color: #fb5f34;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .MainPageTrySectionBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    padding: 85px 0 35px;
+    background: #fff;
+  }
+
+  .MainPageTrySectionBody>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .MainPageTrySectionTextContainer {
+    gap: 20px;
+    margin-left: 10px;
+    // width: 330px;
+    // text-align: center;
+  }
+
+  h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .MainPageTrySectionTextContainer_text {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .MainPageTrySectionCourseContainer {
+    width: 200px;
+    height: 330px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(231deg,
+        rgba(150, 195, 77, 0.4) 0%,
+        rgba(218, 40, 40, 0.4) 99.06%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .MainPageTrySectionCourseContainer_button {
+    width: 180px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .MainPageTrySectionCourseContainer_button p {
+    z-index: 1;
+  }
+
+  .MainPageTrySectionCourseContainer_button::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: -100%;
+    bottom: -60%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #fb5f34;
+    transition: all 0.4s ease;
+    // z-index: 1;
+  }
+
+  .MainPageTrySectionCourseContainer_button:hover {
+    // background: rgba(226, 251, 227, 0.83);
+    color: #fff;
+  }
+
+  .MainPageTrySectionCourseContainer_button:hover.MainPageTrySectionCourseContainer_button::after {
+    left: 0;
+    bottom: 0;
+    // background-color: rgba(145, 229, 246, 0.83);
+    background-color: #fb5f34;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .MainPageTrySectionTextContainer {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .MainPageTrySectionBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    padding: 55px 0 35px;
+    background: #fff;
+  }
+
+  .MainPageTrySectionBody>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .MainPageTrySectionTextContainer {
+    gap: 10px;
+    width: 330px;
+    margin-left: 30px;
+    // text-align: center;
+  }
+
+  h3 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .MainPageTrySectionTextContainer_text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .MainPageTrySectionCourseContainer {
+    min-width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(231deg,
+        rgba(150, 195, 77, 0.4) 0%,
+        rgba(218, 40, 40, 0.4) 99.06%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .MainPageTrySectionCourseContainer_button {
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .MainPageTrySectionCourseContainer_button p {
+    z-index: 1;
+  }
+
+  .MainPageTrySectionCourseContainer_button::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: -100%;
+    bottom: -60%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #fb5f34;
+    transition: all 0.4s ease;
+    // z-index: 1;
+  }
+
+  .MainPageTrySectionCourseContainer_button:hover {
+    // background: rgba(226, 251, 227, 0.83);
+    color: #fff;
+  }
+
+  .MainPageTrySectionCourseContainer_button:hover.MainPageTrySectionCourseContainer_button::after {
+    left: 0;
+    bottom: 0;
+    // background-color: rgba(145, 229, 246, 0.83);
+    background-color: #fb5f34;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .MainPageTrySectionBody {
+    padding: 30px 0 35px;
+  }
+
+  .MainPageTrySectionTextContainer {
+    // gap: 27px;
+    width: 280px;
+    margin-left: 10px;
+    // text-align: center;
+  }
+
+  h3 {
+    color: #000;
+    // font-size: 20px;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .MainPageTrySectionTextContainer_text {
+    color: #000;
+    // font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

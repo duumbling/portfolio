@@ -1,0 +1,271 @@
+.CoursePageAboutSectionBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background: #fff;
+  // position: relative;
+}
+
+.CoursePageAboutSectionBody > div {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  // align-items: flex-start;
+  // padding-left: 800px;
+  // padding-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  padding: 0;
+  align-items: flex-start;
+  height: 100%;
+  position: relative;
+  max-width: none;
+}
+
+.CoursePageAboutSectionVideoContainer {
+  // position: absolute;
+  // left: 0;
+  // top: 0;
+  // width: 50%;
+  height: 400px;
+  // background: linear-gradient(
+  //   231deg,
+  //   rgba(150, 195, 77, 0.4) 0%,
+  //   rgba(218, 40, 40, 0.4) 99.06%
+  // );
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+video {
+  height: 100%;
+}
+
+.CoursePageAboutSectionTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 30px;
+  width: 70%;
+}
+
+.CoursePageAboutSectionTextContainer h3 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.CoursePageAboutSectionTextContainer_text {
+  color: #656565;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1200px) {
+  .CoursePageAboutSectionTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    padding-right: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .CoursePageAboutSectionBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background: #fff;
+    // position: relative;
+  }
+  .CoursePageAboutSectionBody > div {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    // gap: 50px;
+    padding: 0;
+    // align-items: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    max-width: none;
+  }
+  .CoursePageAboutSectionVideoContainer {
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    width: 100%;
+    height: 370px;
+    // background: linear-gradient(
+    //   231deg,
+    //   rgba(150, 195, 77, 0.4) 0%,
+    //   rgba(218, 40, 40, 0.4) 99.06%
+    // );
+    justify-content: center;
+  }
+
+  .CoursePageAboutSectionTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 0;
+    padding: 0 20px 0;
+    height: 20%;
+    // width: 489px;
+    text-align: center;
+  }
+  .CoursePageAboutSectionTextContainer h3 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .CoursePageAboutSectionTextContainer_text {
+    color: #656565;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .CoursePageAboutSectionBody > div {
+    align-items: center;
+  }
+  .CoursePageAboutSectionTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    // padding-top: 30px;
+    // height: 30%;
+    // width: 489px;
+  }
+  .CoursePageAboutSectionVideoContainer {
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    width: 90%;
+    height: 370px;
+    // background: linear-gradient(
+    //   231deg,
+    //   rgba(150, 195, 77, 0.4) 0%,
+    //   rgba(218, 40, 40, 0.4) 99.06%
+    // );
+    // justify-content: center;
+  }
+  video {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .CoursePageAboutSectionBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background: #fff;
+    // position: relative;
+  }
+  .CoursePageAboutSectionBody > div {
+    gap: 60px;
+  }
+  .CoursePageAboutSectionTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-top: 0px;
+    // height: 20%;
+    // width: 489px;
+  }
+  .CoursePageAboutSectionTextContainer h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .CoursePageAboutSectionTextContainer_text {
+    color: #656565;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .CoursePageAboutSectionVideoContainer {
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    width: 100%;
+    height: 50%;
+    // background: linear-gradient(
+    //   231deg,
+    //   rgba(150, 195, 77, 0.4) 0%,
+    //   rgba(218, 40, 40, 0.4) 99.06%
+    // );
+  }
+  video {
+    width: min-content;
+  }
+}
+@media screen and (max-width: 480px) {
+  .CoursePageAboutSectionBody > div {
+    gap: 100px;
+  }
+  .CoursePageAboutSectionVideoContainer {
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    width: 100%;
+    height: 40%;
+    // background: linear-gradient(
+    //   231deg,
+    //   rgba(150, 195, 77, 0.4) 0%,
+    //   rgba(218, 40, 40, 0.4) 99.06%
+    // );
+  }
+}
+@media screen and (max-width: 360px) {
+  .CoursePageAboutSectionBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 420px;
+    background: #fff;
+    // position: relative;
+  }
+  .CoursePageAboutSectionBody > div {
+    gap: 100px;
+  }
+  .CoursePageAboutSectionTextContainer h3 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .CoursePageAboutSectionTextContainer_text {
+    color: #656565;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .CoursePageAboutSectionVideoContainer {
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+    width: 100%;
+    height: 40%;
+  }
+}

@@ -1,0 +1,137 @@
+.MainPageWhatSectionBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  background: url("./img//MainPageWhatBackground.png") center center no-repeat;
+  background-size: cover;
+}
+
+.MainPageWhatSectionBody > div {
+  display: flex;
+  flex-direction: row;
+  // align-items: flex-start;
+  justify-content: center;
+  gap: 100px;
+}
+
+.MainPageWhatSectionSkillsContainer img {
+  width: 290px;
+  height: 290px;
+}
+
+.MainPageWhatSectionTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+}
+
+.MainPageWhatSectionTextContainer h3 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.MainPageWhatSectionTextContainer_text {
+  width: 580px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .MainPageWhatSectionBody {
+    height: 500px;
+  }
+
+  .MainPageWhatSectionBody > div {
+    align-items: center;
+    gap: 100px;
+  }
+
+  .MainPageWhatSectionSkillsContainer img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .MainPageWhatSectionTextContainer h3 {
+    margin-bottom: 15px;
+  }
+
+  .MainPageWhatSectionTextContainer_text {
+    width: 500px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .MainPageWhatSectionBody {
+    height: 600px;
+  }
+  .MainPageWhatSectionTextContainer_text {
+    width: 350px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .MainPageWhatSectionBody {
+    height: 700px;
+  }
+  .MainPageWhatSectionBody > div {
+    gap: 20px;
+  }
+  .MainPageWhatSectionTextContainer_text {
+    width: 300px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .MainPageWhatSectionBody {
+    height: 900px;
+  }
+
+  .MainPageWhatSectionBody > div {
+    flex-direction: column-reverse;
+  }
+
+  .MainPageWhatSectionSkillsContainer img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .MainPageWhatSectionTextContainer {
+    gap: 25px;
+    margin-left: 30px;
+  }
+
+  .MainPageWhatSectionTextContainer h3 {
+    margin-bottom: 0px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .MainPageWhatSectionTextContainer_text {
+    width: 300px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .MainPageWhatSectionTextContainer {
+    margin-left: 0px;
+  }
+
+  .MainPageWhatSectionTextContainer h3 {
+    font-size: 19px;
+    margin-right: 20px;
+  }
+
+  .MainPageWhatSectionTextContainer_text {
+    width: 280px;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .MainPageWhatSectionTextContainer {
+    margin-left: 0px;
+  }
+}

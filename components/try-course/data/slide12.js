@@ -1,0 +1,25 @@
+(function(){var loadHandler=window['sl_{050EFC90-6C03-465B-9212-D27A4740EB19}'];loadHandler&&loadHandler(11, '<div id="spr0_13f69042"><div id="spr1_13f69042" class="kern slide"><img id="img13_13f69042" src="data/img4.png" width="1920px" height="1080px" alt="" style="left:0px;top:0px;"/></div><div id="spr2_13f69042" class="kern slide"><div id="spr3_13f69042" aria-label="Изображение выглядит как снимок экрана, дизайн\
+\
+Автоматически созданное описание" role="group" style="left:-236.921px;top:-30.159px;"><div id="spr4_13f69042"><img id="img0_13f69042" src="data/img12.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="spr5_13f69042" aria-label="Изображение выглядит как снимок экрана, искусство, дизайн\
+\
+Автоматически созданное описание" role="group" style="left:-236.921px;top:-30.159px;"><div id="spr6_13f69042"><img id="img1_13f69042" src="data/img13.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="spr7_13f69042" aria-label="Изображение выглядит как графический дизайн, искусство, снимок экрана, Графика\
+\
+Автоматически созданное описание" role="group" style="left:-236.921px;top:-30.159px;"><div id="spr8_13f69042"><img id="img2_13f69042" src="data/img14.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="spr9_13f69042" aria-label="Изображение выглядит как снимок экрана, строительство\
+\
+Автоматически созданное описание" role="group" style="left:-236.921px;top:-30.159px;"><div id="spr10_13f69042"><img id="img3_13f69042" src="data/img15.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="spr11_13f69042" aria-label="Изображение выглядит как темнота, черный, черно-белый, монохромный\
+\
+Автоматически созданное описание" role="group" style="left:-236.921px;top:-30.159px;"><div id="spr12_13f69042"><img id="img4_13f69042" src="data/img16.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="spr13_13f69042" aria-label="Изображение выглядит как темнота, черный, луна, ночь\
+\
+Автоматически созданное описание" role="group" style="left:-236.921px;top:-30.159px;"><div id="spr14_13f69042"><img id="img5_13f69042" src="data/img17.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="spr15_13f69042" aria-label="Изображение выглядит как темнота, черный, снимок экрана, черно-белый\
+\
+Автоматически созданное описание" role="group" style="left:-236.921px;top:-30.159px;"><div id="spr16_13f69042"><img id="img6_13f69042" src="data/img18.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="spr17_13f69042" aria-label="Изображение выглядит как черный, темнота, черно-белый, монохромный\
+\
+Автоматически созданное описание" role="group" style="left:-236.921px;top:-30.159px;"><div id="spr18_13f69042"><img id="img7_13f69042" src="data/img19.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="spr19_13f69042" aria-label="Изображение выглядит как темнота, черный\
+\
+Автоматически созданное описание" role="group" style="left:-236.921px;top:-30.159px;"><div id="spr20_13f69042"><img id="img8_13f69042" src="data/img20.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="spr21_13f69042" aria-label="Изображение выглядит как черный, темнота, черно-белый, монохромный\
+\
+Автоматически созданное описание" role="group" style="left:-236.921px;top:-30.159px;"><div id="spr22_13f69042"><img id="img9_13f69042" src="data/img21.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="spr23_13f69042" style="left:-236.921px;top:-30.159px;"><div id="spr24_13f69042"><img id="img10_13f69042" src="data/img22.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="spr25_13f69042" aria-label="Изображение выглядит как черный, темнота, снимок экрана\
+\
+Автоматически созданное описание" role="group" style="left:-236.921px;top:-30.159px;"><div id="spr26_13f69042"><img id="img11_13f69042" src="data/img23.png" width="2754" height="1549" alt="" style="left:0.091px;top:0.063px;"/></div></div><div id="svg0_13f69042" style="left:397.724px;top:239.335px;"><svg width="1352" height="699" viewBox="-39.447 -39.447 1352 699"><path fill="#ffffff" fill-opacity="0.9" stroke="#000000" stroke-width="4.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="8" d="M2.25,34.947 a32.697,32.697 0 0,1 32.697,-32.697 h1202.393 a32.697,32.697 0 0,1 32.697,32.697 v550.02 a32.697,32.697 0 0,1 -32.697,32.697 h-1202.393 a32.697,32.697 0 0,1 -32.697,-32.697 Z" fill-rule="evenodd"/></svg></div><div id="spr27_13f69042" aria-label="Изображение выглядит как одежда, обувь, Вымышленный персонаж, человек\
+\
+Автоматически созданное описание" role="group" style="left:1270.534px;top:320.154px;"><div id="spr28_13f69042"><img id="img12_13f69042" src="data/img24.png" width="406.15" height="1011.703" alt=""/></div></div></div></div>', '{"s":[]}');})();
